@@ -15,5 +15,6 @@ You can see the example demo video
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [learn-html.org](https://www.learn-html.org/)
-* [W3 schools](https://www.w3schools.com/html/)
+* [Javascript.info](https://javascript.info/)
+* [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Modern JavaScript from the Beginning - 2nd Ed Brad Traversy](https://learning.oreilly.com/videos/modern-javascript-from/)
