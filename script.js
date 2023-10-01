@@ -2,7 +2,7 @@
 let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
 function viewTasks(){
-    // Select all the elemnts from the task list
+    // Select the elemnts from the task list
     const taskList = document.querySelector('.list');
     taskList.innerHTML = '';
 
@@ -32,8 +32,8 @@ function viewTasks(){
 
 function updateTasks() {
     let string = JSON.stringify(tasks);
-    localStorage.setItem(tasks, string);
-    console.log(tasks);
+    localStorage.setItem('tasks', string);
+    /* console.log(tasks); */
 }
 
 // Event listener to the form to add new task
@@ -50,6 +50,7 @@ form.addEventListener('submit', function(event) {
 
         tasks.push(newTask);
         viewTasks();
+        updateTasks();
 
         // Clean the text input when the task is added
         document.getElementById('ntask').value = '';

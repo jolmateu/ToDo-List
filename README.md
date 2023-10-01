@@ -2,7 +2,7 @@
 This is a JavaScript exercise, a To Do List web application, which allows you to add new tasks, check if they have already been done or delete them from the list, this app uses local storage to save the state of the application.
 
 You can see the example demo video
-[Software Demo Video](https://youtu.be/z3YyJrUr7EY)
+[Software Demo Video](https://youtu.be/E0XGB2jcrwY)
 
 # Development Environment
 
